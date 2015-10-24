@@ -1,0 +1,26 @@
+{
+  "name": "CodePanion",
+
+  "version": "0.1",
+
+  "description": "",
+
+  "permissions": [
+    "http://codepen.io/"
+  ],
+
+  "browser_action": {
+    "default_title": "CodePanion",
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2,
+
+  "externally_connectable": {
+    "matches": ["https://oauth.io/"]
+  }
+}
