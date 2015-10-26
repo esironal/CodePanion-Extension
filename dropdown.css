@@ -1,7 +1,4 @@
 #cpContainer {
-  position: absolute;
-  top: -100px;
-  display: none;
-  width: 100vw; height: 100px;
-  background: #263238;
+  width: 100vw; height: 200px;
+  background: #333;
 }
