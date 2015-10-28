@@ -3,7 +3,7 @@
 
   "version": "0.1",
 
-  "description": "",
+  "description": "Github integration into CodePens",
 
   "permissions": [
     "http://codepen.io/"
@@ -15,7 +15,7 @@
   },
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [""]
   },
 
   "manifest_version": 2,
